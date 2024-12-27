@@ -1,0 +1,76 @@
+/* 全局布局样式 */
+.layout {
+    min-height: 100vh;
+  }
+  
+  .site-layout-content {
+    padding: 24px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 头部样式 */
+  .ant-layout-header {
+    text-align: center;
+    padding: 0 20px;
+    height: 64px;
+    line-height: 64px;
+    background: #1890ff;
+  }
+  
+  .ant-layout-header h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* 卡片组件样式 */
+  .data-input-card,
+  .param-settings-card,
+  .result-view-card {
+    margin-bottom: 24px;
+    border-radius: 8px;
+    transition: all 0.3s;
+  }
+  
+  .data-input-card:hover,
+  .param-settings-card:hover,
+  .result-view-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* 响应式布局 */
+  @media (max-width: 768px) {
+    .site-layout-content {
+      padding: 12px;
+    }
+    
+    .ant-layout-header h1 {
+      font-size: 20px;
+    }
+    
+    .ant-card {
+      margin-bottom: 16px;
+    }
+  }
+  
+  /* 图表容器样式 */
+  .chart-container {
+    height: 400px;
+    margin: 20px 0;
+  }
+  
+  /* 表单元素样式 */
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .ant-space {
+    margin-bottom: 8px;
+  }
+  
+  /* 加载状态样式 */
+  .ant-spin-container {
+    transition: all 0.3s;
+  }
